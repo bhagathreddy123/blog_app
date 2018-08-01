@@ -24,3 +24,6 @@ Things you may want to cover:
 * ...
 Rails 5.0
 Ruby 2.3
+
+added 'rspec-rails' and 'capybara' gems in Gemfile.
+then run bundle install after that rails g rspec:install in console.
