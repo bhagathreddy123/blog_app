@@ -30,3 +30,10 @@ then run bundle install after that rails g rspec:install in console.
 gomockingbird.com - online tool for wireframes free.
 
 rails g controller articles index
+
+adding guard related gems in Gemfile
+then run below command it will create Guardfile.
+$ guard init rspec
+
+$ guard
+type above command and press enter in command prompt exit for exit purpose.
