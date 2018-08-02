@@ -5,8 +5,8 @@ RSpec.feature "Creating Articles" do
 		click_link "New Article"
 		fill_in "Title", with: "Creating a article"
 		fill_in "Body", with: "some description about Article"
-		click_button "create Article"
-		except(page).to have_content("Article has been created")
-		except(page.current_path).to eq(articles_path)
+		click_button "Create Article"
+		expect(page).to have_content("Article has been created")
+		expect(page.current_path).to eq(articles_path)
 	end
 end
